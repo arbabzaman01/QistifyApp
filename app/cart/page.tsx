@@ -68,7 +68,7 @@ function CartPageContent() {
                     <div className="flex justify-between gap-4 mb-2">
                       <div>
                         <Link href={`/product/${item.product.id}`}>
-                          <h3 className="font-semibold hover:text-blue-600 text-balance">{item.product.name}</h3>
+                          <h3 className="font-semibold hover:text-green-600 text-balance">{item.product.name}</h3>
                         </Link>
                         <p className="text-sm text-muted-foreground">{item.product.category}</p>
                       </div>
@@ -133,16 +133,16 @@ function CartPageContent() {
                 <div className="border-t pt-3">
                   <div className="flex justify-between">
                     <span className="font-semibold">Total</span>
-                    <span className="text-2xl font-bold text-blue-600">${total.toFixed(2)}</span>
+                    <span className="text-2xl font-bold text-green-600">${total.toFixed(2)}</span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-1">or from ${(total / 12).toFixed(2)}/month</p>
                 </div>
               </div>
 
-              <Card className="bg-blue-50 border-blue-200 mb-4">
+              <Card className="bg-green-50 border-green-200 mb-4">
                 <CardContent className="p-4">
                   <div className="flex items-start gap-2 mb-3">
-                    <Calendar className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <Calendar className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-sm mb-1">Installment Options Available</h3>
                       <p className="text-xs text-muted-foreground">قسطوں میں ادائیگی کی سہولت</p>

@@ -52,14 +52,14 @@ export default function HomePage() {
       id: "8",
       name: "Webcam HD",
       price: 119.99,
-      image: "/webcam-hd.png",
+      image: "/hd-webcam.jpg",
     },
   ]
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-24">
+      <section className="bg-gradient-to-br from-green-600 via-green-700 to-green-900 text-white py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -68,12 +68,12 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
               Shop Now, Pay Later
               <br />
-              <span className="text-blue-200">قسطوں میں خریداری</span>
+              <span className="text-green-200">قسطوں میں خریداری</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 text-pretty leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-green-100 text-pretty leading-relaxed max-w-3xl mx-auto">
               Choose your favorite products and pay in easy installments over 3, 6, or 12 months.
               <br />
-              <span className="text-blue-200 font-semibold">No hidden charges</span> - Simple and transparent process
+              <span className="text-green-200 font-semibold">No hidden charges</span> - Simple and transparent process
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/shop">
@@ -106,8 +106,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-8 text-center">
-                <div className="h-16 w-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
-                  <CreditCard className="h-8 w-8 text-blue-600" />
+                <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
+                  <CreditCard className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="font-bold text-xl mb-3">Flexible Payment Plans</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -117,8 +117,8 @@ export default function HomePage() {
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-8 text-center">
-                <div className="h-16 w-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
-                  <Shield className="h-8 w-8 text-blue-600" />
+                <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="font-bold text-xl mb-3">100% Secure</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -128,8 +128,8 @@ export default function HomePage() {
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-8 text-center">
-                <div className="h-16 w-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
-                  <Truck className="h-8 w-8 text-blue-600" />
+                <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
+                  <Truck className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="font-bold text-xl mb-3">Fast Delivery</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -159,9 +159,9 @@ export default function HomePage() {
                   </div>
                   <CardContent className="p-5">
                     <h3 className="font-semibold text-lg mb-2 text-balance">{product.name}</h3>
-                    <p className="text-2xl font-bold text-blue-600 mb-1">${product.price}</p>
+                    <p className="text-2xl font-bold text-green-600 mb-1">${product.price}</p>
                     <p className="text-sm text-muted-foreground">
-                      or <span className="font-semibold text-blue-600">${(product.price / 12).toFixed(2)}/month</span>
+                      or <span className="font-semibold text-green-600">${(product.price / 12).toFixed(2)}/month</span>
                     </p>
                   </CardContent>
                 </Card>

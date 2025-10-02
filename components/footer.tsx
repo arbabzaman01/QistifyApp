@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
+              <div className="h-8 w-8 rounded-lg bg-green-600 flex items-center justify-center">
                 <ShoppingBag className="h-5 w-5 text-white" />
               </div>
               <span>Easy Qist</span>
@@ -24,22 +24,22 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/shop" className="text-muted-foreground hover:text-blue-600">
+                <Link href="/shop" className="text-muted-foreground hover:text-green-600">
                   Shop
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-blue-600">
+                <Link href="/about" className="text-muted-foreground hover:text-green-600">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/blogs" className="text-muted-foreground hover:text-blue-600">
+                <Link href="/blogs" className="text-muted-foreground hover:text-green-600">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-blue-600">
+                <Link href="/contact" className="text-muted-foreground hover:text-green-600">
                   Contact
                 </Link>
               </li>
@@ -51,22 +51,22 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Customer Service</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="text-muted-foreground hover:text-blue-600">
+                <a href="#" className="text-muted-foreground hover:text-green-600">
                   Shipping Info
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-blue-600">
+                <a href="#" className="text-muted-foreground hover:text-green-600">
                   Returns
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-blue-600">
+                <a href="#" className="text-muted-foreground hover:text-green-600">
                   Payment Plans
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-blue-600">
+                <a href="#" className="text-muted-foreground hover:text-green-600">
                   FAQ
                 </a>
               </li>
@@ -78,16 +78,16 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Stay Connected</h3>
             <p className="text-sm text-muted-foreground mb-4">Subscribe to get special offers and updates.</p>
             <div className="flex gap-3">
-              <a href="#" className="text-muted-foreground hover:text-blue-600">
+              <a href="#" className="text-muted-foreground hover:text-green-600">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-blue-600">
+              <a href="#" className="text-muted-foreground hover:text-green-600">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-blue-600">
+              <a href="#" className="text-muted-foreground hover:text-green-600">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-blue-600">
+              <a href="#" className="text-muted-foreground hover:text-green-600">
                 <Mail className="h-5 w-5" />
               </a>
             </div>

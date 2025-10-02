@@ -35,7 +35,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-            <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
+            <div className="h-8 w-8 rounded-lg bg-green-600 flex items-center justify-center">
               <ShoppingBag className="h-5 w-5 text-white" />
             </div>
             <span className="hidden sm:inline">Easy Qist</span>
@@ -47,8 +47,8 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
-                  pathname === link.href ? "text-blue-600" : "text-muted-foreground"
+                className={`text-sm font-medium transition-colors hover:text-green-600 ${
+                  pathname === link.href ? "text-green-600" : "text-muted-foreground"
                 }`}
               >
                 {link.label}
@@ -63,7 +63,7 @@ export function Header() {
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart className="h-5 w-5" />
                 {cartItemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 h-5 w-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">
+                  <span className="absolute -top-1 -right-1 h-5 w-5 rounded-full bg-green-600 text-white text-xs flex items-center justify-center">
                     {cartItemCount}
                   </span>
                 )}
@@ -121,8 +121,8 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium whitespace-nowrap transition-colors hover:text-blue-600 ${
-                pathname === link.href ? "text-blue-600" : "text-muted-foreground"
+              className={`text-sm font-medium whitespace-nowrap transition-colors hover:text-green-600 ${
+                pathname === link.href ? "text-green-600" : "text-muted-foreground"
               }`}
             >
               {link.label}

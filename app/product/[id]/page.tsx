@@ -76,7 +76,7 @@ export default function ProductDetailPage() {
           </div>
           <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
           <div className="flex items-baseline gap-3 mb-6">
-            <p className="text-4xl font-bold text-blue-600">${product.price}</p>
+            <p className="text-4xl font-bold text-green-600">${product.price}</p>
             <p className="text-muted-foreground">or from ${(product.price / 12).toFixed(2)}/month</p>
           </div>
 
@@ -115,10 +115,10 @@ export default function ProductDetailPage() {
             </div>
           </div>
 
-          <Card className="mb-6 border-2 border-blue-200 bg-blue-50/50">
+          <Card className="mb-6 border-2 border-green-200 bg-green-50/50">
             <CardContent className="pt-6">
               <div className="flex items-center gap-2 mb-4">
-                <Calendar className="h-5 w-5 text-blue-600" />
+                <Calendar className="h-5 w-5 text-green-600" />
                 <h3 className="font-bold text-lg">Available Installment Plans</h3>
               </div>
               <div className="grid grid-cols-3 gap-3 mb-4">
@@ -128,8 +128,8 @@ export default function ProductDetailPage() {
                     onClick={() => setSelectedPlan(plan.months)}
                     className={`p-3 rounded-lg border-2 transition-all text-center ${
                       selectedPlan === plan.months
-                        ? "border-blue-600 bg-blue-600 text-white"
-                        : "border-slate-200 bg-white hover:border-blue-300"
+                        ? "border-green-600 bg-green-600 text-white"
+                        : "border-slate-200 bg-white hover:border-green-300"
                     }`}
                   >
                     <div className="font-bold text-lg">{plan.months}</div>
@@ -164,8 +164,8 @@ export default function ProductDetailPage() {
           {/* Features */}
           <div className="grid grid-cols-1 gap-4 pt-6 border-t">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <Truck className="h-5 w-5 text-blue-600" />
+              <div className="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                <Truck className="h-5 w-5 text-green-600" />
               </div>
               <div>
                 <p className="font-medium text-sm">Free Shipping</p>
@@ -173,8 +173,8 @@ export default function ProductDetailPage() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <CreditCard className="h-5 w-5 text-blue-600" />
+              <div className="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                <CreditCard className="h-5 w-5 text-green-600" />
               </div>
               <div>
                 <p className="font-medium text-sm">Flexible Payments</p>
@@ -182,8 +182,8 @@ export default function ProductDetailPage() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <Shield className="h-5 w-5 text-blue-600" />
+              <div className="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                <Shield className="h-5 w-5 text-green-600" />
               </div>
               <div>
                 <p className="font-medium text-sm">Secure Checkout</p>
